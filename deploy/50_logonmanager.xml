@@ -1,0 +1,23 @@
+<logon-mgr class="com.kayusgold.logonmanager.MyWorkingLogonManager" logger="Q2">
+    <property name="persistent-space" value="je:jcardlogonmgr" />
+    <property name="channel-ready"  value="clientsimulator-adaptor.ready" />
+    <property name="timeout"        value="30000" />
+    <property name="echo-interval"  value="30000" />
+    <property name="logon-interval" value="600000" />
+    <property name="mux" value="clientsimulator-mux" />
+    <logon>
+    </logon>
+    <logoff>
+        <isomsg>
+            <field id="0" value="0800"/>
+            <field id="7" value="0104160000"/>
+            <field id="11" value="000001" type="binary"/>
+            <field id="12" value="000000"/>
+            <field id="13" value="0104"/>
+            <field id="70" value="001"/>
+        </isomsg>
+    </logoff>
+
+    <echo>
+    </echo>
+</logon-mgr>
