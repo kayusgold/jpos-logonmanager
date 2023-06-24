@@ -1,5 +1,5 @@
 <logon-mgr class="com.kayusgold.logonmanager.MyWorkingLogonManager" logger="Q2">
-    <property name="persistent-space" value="je:jcardlogonmgr" />
+    <property name="persistent-space" value="je:kayusgoldlogonmgr" />
     <property name="channel-ready"  value="clientsimulator-adaptor.ready" />
     <property name="timeout"        value="30000" />
     <property name="echo-interval"  value="30000" />
