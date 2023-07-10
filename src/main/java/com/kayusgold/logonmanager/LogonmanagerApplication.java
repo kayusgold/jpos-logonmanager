@@ -1,6 +1,7 @@
 package com.kayusgold.logonmanager;
 
 import org.jpos.q2.Q2;
+import org.jpos.q2.iso.QMUX;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,6 +11,8 @@ public class LogonmanagerApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(LogonmanagerApplication.class, args);
     }
+
+    private static QMUX mux;
 
     @Override
     public void run(String... args) throws Exception {

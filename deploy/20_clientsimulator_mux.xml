@@ -19,8 +19,14 @@
   -->
 
 <mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="clientsimulator-mux">
+    <key>41 11</key>
+<!--    <mti>0800</mti>-->
+<!--    <mti>0200</mti>-->
     <in>clientsimulator-receive</in>
     <out>clientsimulator-send</out>
+<!--    <request-listener class="com.kayusgold.logonmanager.MyISORequestListener" logger="Q2" realm="myrealm">-->
+
+<!--    </request-listener>-->
     <unhandled>clientsimulator-unhandled</unhandled>
     <ready>clientsimulator-adaptor.ready</ready>
 </mux>

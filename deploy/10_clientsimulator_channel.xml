@@ -22,7 +22,7 @@
                  class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
     <channel class="org.jpos.iso.channel.PostChannel" logger="Q2"
              packager="org.jpos.iso.packager.GenericPackager" name="mychannel">
-        <property name="packager-config" value="/Users/kayusgold/Projects/logonmanager/src/main/resources/jposisw.xml"/>
+        <property name="packager-config" value="/Users/kayusgold/Projects/logonmanager/src/main/resources/neapay.xml"/>
         <property name="host" value="127.0.0.1" />
         <property name="port" value="9009" />
     </channel>
